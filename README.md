@@ -6,9 +6,9 @@
 
 # Özellikleri
 
-## - Hesap Ekle 
+## - Hesap Ekleme
 
-## - Hesabı Güncelle
+## - Hesabı Güncelleme
 
 ## - Hesabı Silme 
 
