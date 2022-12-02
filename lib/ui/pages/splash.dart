@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../shared/config.dart';
-import '../widgets/next_screen.dart';
+import 'package:flutter_accounts_crud/shared/config.dart';
+import 'package:flutter_accounts_crud/ui/widgets/next_screen.dart';
 import 'home.dart';
 
 class SplashPage extends StatefulWidget {
