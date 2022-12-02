@@ -11,23 +11,22 @@ class NavigatorHelper {
     if (Navigator.canPop(context)) return Future.value(true);
 
     return showDialog(
-          context: context,
-          builder: (BuildContext context) {
-            return AlertDialog(
-              title: Text("closeApplication"),
-              actions: <Widget>[
-                TextButton(
-                  child: Text("no"),
-                  onPressed: () => Navigator.of(context).pop(false),
-                ),
-                TextButton(
-                  child: Text("yes"),
-                  onPressed: () => Navigator.of(context).pop(true),
-                ),
-              ],
-            );
-          },
-        ) ??
-        Future.value(false);
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text("closeApplication"),
+          actions: <Widget>[
+            TextButton(
+              child: Text("no"),
+              onPressed: () => Navigator.of(context).pop(false),
+            ),
+            TextButton(
+              child: Text("yes"),
+              onPressed: () => Navigator.of(context).pop(true),
+            ),
+          ],
+        );
+      },
+    );
   }
 }
