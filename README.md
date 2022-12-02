@@ -12,6 +12,10 @@
 
 ## - Hesabı Silme 
 
+# Kullanılan Teknolojiler
+
+## - Github Actions
+
 # Kullanılan Paketler
 
 ## - State Management => Provider
