@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_accounts_crud/notifier/accounts_notifier.dart';
 import 'package:flutter_accounts_crud/shared/navigator_helper.dart';
 import 'package:flutter_accounts_crud/ui/pages/splash.dart';
 import 'package:provider/provider.dart';
@@ -20,7 +21,9 @@ void main() async {
 
   runApp(
     MultiProvider(
-        providers: [],
+        providers: [
+          ChangeNotifierProvider(create: (context) => AccountsNotifier()),
+        ],
         child: EasyLocalization(
           // useOnlyLangCode: false,
           path: 'assets/languages',
