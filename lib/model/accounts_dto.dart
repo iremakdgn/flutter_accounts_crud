@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_neyasis_technical_case/shared/convert_helper.dart';
-import 'package:flutter_neyasis_technical_case/shared/format_helper.dart';
+import 'package:flutter_accounts_crud/shared/convert_helper.dart';
+import 'package:flutter_accounts_crud/shared/format_helper.dart';
 
 dynamic accountsDtoListToJson(List<AccountsDto> data) => List<dynamic>.from(data.map((x) => x.toJson()));
 List<AccountsDto> accountsDtoListFromJson(dynamic obj) => List<AccountsDto>.from(obj.map((x) => AccountsDto.fromJson(x)));
