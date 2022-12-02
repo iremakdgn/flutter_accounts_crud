@@ -35,6 +35,8 @@ dependencies:
   http:
   equatable: ^2.0.0
   fluttertoast: ^8.0.9
+  tckn_check: 
+  datetime_picker_formfield: ^2.0.0
 
 
   # The following adds the Cupertino Icons font to your application.
