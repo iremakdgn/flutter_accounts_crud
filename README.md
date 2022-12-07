@@ -14,7 +14,7 @@
 
 # Kullanılan Teknolojiler
 
-## - Github Actions
+## - Github Actions ile bash script
 
 # Kullanılan Paketler
 
